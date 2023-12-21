@@ -7,16 +7,16 @@ public class Triangle
 		int c = Integer.parseInt(args[2]);
 		if ((a + b) < c )
 		{
-	       System.out.println(a + " , " + b + " , " + c + ":false");
+	       System.out.println(a + " , " + b + " , " + c + ": false");
 		}
 		else if ((a+c) < b)
 		{
-			System.out.println(a + " , " + b + " , " + c + ":false");
+			System.out.println(a + " , " + b + " , " + c + ": false");
 		}
 		else if ((b+c) < a)
 		{
-			System.out.println(a + " , " + b + " , " + c + ":false");
+			System.out.println(a + " , " + b + " , " + c + ": false");
 		}
-		else System.out.println(a + " , " + b + " , " + c + ":true");
+		else System.out.println(a + " , " + b + " , " + c + ": true");
 	}
 }
